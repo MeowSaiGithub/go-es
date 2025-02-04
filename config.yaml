@@ -1,0 +1,22 @@
+log_level: info
+## set false if you don't want to see the error details in the API responses
+detail_error: true
+
+server:
+  # base path for the server
+  base_path: /
+  # port that the server listens to
+  port: 80
+  # secret key for the server (optional)
+  api_secret: secret
+
+
+## elastic search configuration
+elastic_search:
+  ## elastic search addresses
+  addresses:
+    - https://localhost:9200
+  ## elastic search api key
+  api_key: TlJKWHk1UUJvcGpmeDBRWEZqeGI6N1JqU0pLSmNTcy05bnZsSnAtSC1Udw==
+  ## elastic search http ca (optional, required if elastic search is using https)
+  ca_path: http_ca.crt
