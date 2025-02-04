@@ -25,3 +25,12 @@ go.work.sum
 .env
 
 dist/
+/.idea/.gitignore
+/.goreleaser.yaml
+/.idea/go.imports.xml
+/go.sum
+/.idea/go-es.iml
+/http_ca.crt
+/.idea/material_theme_project_new.xml
+/.idea/modules.xml
+/.idea/vcs.xml
