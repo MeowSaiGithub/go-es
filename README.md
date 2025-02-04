@@ -26,7 +26,7 @@ datetime in the index name (the one users sent) and create an alias with exact i
 
 ### From Source
 To install Go-ES, follow these steps:
-1. Clone the repository: `git clone https://github.com/your-username/go-es.git`
+1. Clone the repository: `https://github.com/MeowSaiGithub/go-es.git`
 2. Navigate to the project directory: `cd go-es`
 3. Build the project: `go build -o go-es`
 4. Modify the Configuration file [config.yaml](config.yaml) to suit your needs
@@ -37,7 +37,7 @@ To install Elastic Search using Docker - https://www.elastic.co/guide/en/elastic
 
 
 To install Go-ES using Docker, follow these steps:
-1. Clone the repository: `git clone https://github.com/your-username/go-es.git`
+1. Clone the repository: `https://github.com/MeowSaiGithub/go-es.git`
 2. Navigate to the project directory: `cd go-es`
 3. Modify the Configuration file [config.yaml](config.yaml) to suit your needs
 4. Build the Docker image: `docker build -t go-es .`
