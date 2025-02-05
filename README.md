@@ -23,6 +23,12 @@ datetime in the index name (the one users sent) and create an alias with exact i
 * Elastic Search API Key
 
 ## Installation
+### From Release
+To install Go-ES, following these steps:
+1. Go to the release page and download your os and architecture
+2. Copy and modify the [config.yaml](config.yaml) file
+3. Run the downloaded executable via `./go-es --config=config.yaml`
+
 
 ### From Source
 To install Go-ES, follow these steps:
